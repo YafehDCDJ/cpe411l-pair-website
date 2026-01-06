@@ -3,20 +3,20 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fff1f5; /* soft pink background */
   line-height: 1.6;
 }
 
 /* Navigation bar */
 nav {
-  background-color: #222;
+  background-color: #e75480; /* rose pink */
   padding: 12px 0;
   text-align: center;
 }
 
 /* Navigation links */
 nav a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -24,29 +24,29 @@ nav a {
 
 /* Highlight nav link on hover */
 nav a:hover {
-  color: #ffcc00;
+  color: #ffd1dc; /* light blush pink */
 }
 
 /* Section layout */
 section {
-  background-color: white;
+  background-color: #ffffff;
   margin: 20px auto;
   padding: 25px;
-  border-radius: 8px;
+  border-radius: 12px; /* slightly rounder = softer look */
   max-width: 800px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(231, 84, 128, 0.2);
 }
 
 /* Headings */
 h1 {
-  color: #222;
+  color: #3a0f1b; /* dark rose text */
   font-size: 2em;
   margin-bottom: 15px;
 }
 
 /* Paragraphs */
 p {
-  color: #555;
+  color: #5c2a36; /* softer dark pink */
   font-size: 1em;
 }
 
@@ -57,6 +57,7 @@ ul {
 
 li {
   margin-bottom: 8px;
+  color: #5c2a36;
 }
 
 /* Responsive for mobile */
