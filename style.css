@@ -1,32 +1,81 @@
+/* General body settings */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
   background-color: #f4f4f4;
+  line-height: 1.6;
 }
 
+/* Navigation bar */
 nav {
-  background: #222;
-  padding: 10px;
+  background-color: #222;
+  padding: 12px 0;
   text-align: center;
 }
 
+/* Navigation links */
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
+/* Highlight nav link on hover */
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Section layout */
 section {
-  background: white;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 5px;
+  background-color: white;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Mobile design */
+/* Headings */
+h1 {
+  color: #222;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  color: #555;
+  font-size: 1em;
+}
+
+/* List styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Responsive for mobile */
 @media (max-width: 600px) {
   nav a {
     display: block;
     margin: 8px 0;
+  }
+
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p, li {
+    font-size: 0.95em;
   }
 }
