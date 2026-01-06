@@ -1,32 +1,82 @@
+/* General body settings */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f4f4f4;
+  padding: 0;
+  background-color: #fff1f5; /* soft pink background */
+  line-height: 1.6;
 }
 
+/* Navigation bar */
 nav {
-  background: #222;
-  padding: 10px;
+  background-color: #e75480; /* rose pink */
+  padding: 12px 0;
   text-align: center;
 }
 
+/* Navigation links */
 nav a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
+/* Highlight nav link on hover */
+nav a:hover {
+  color: #ffd1dc; /* light blush pink */
+}
+
+/* Section layout */
 section {
-  background: white;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px; /* slightly rounder = softer look */
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(231, 84, 128, 0.2);
 }
 
-/* Mobile design */
+/* Headings */
+h1 {
+  color: #3a0f1b; /* dark rose text */
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  color: #5c2a36; /* softer dark pink */
+  font-size: 1em;
+}
+
+/* List styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #5c2a36;
+}
+
+/* Responsive for mobile */
 @media (max-width: 600px) {
   nav a {
     display: block;
     margin: 8px 0;
+  }
+
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p, li {
+    font-size: 0.95em;
   }
 }
